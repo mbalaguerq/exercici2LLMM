@@ -1,0 +1,59 @@
+/* Estilo general */
+
+.titulo {
+	background-color: slateblue;
+	width: 90%;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+.cabeza{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
+}
+ 
+.boto1 {
+  background-color: darkblue;
+  color: lightblue;
+  padding: 25px;
+  font-size: 16pt;
+  
+}
+
+.boto2 {
+  background-color: darkblue;
+  color: lightblue;
+  font-family: Arial, impact, Helvetica, sans-serif;
+  padding: 25px;
+  font-size: 24pt;
+  
+
+}
+
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 5em;
+}
+
+
+
+
+body{
+	font-family: Calibri, 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+	background-color: lightskyblue;
+	color: blue;
+	font-weight: 800;
+	
+}
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="ejercicio2.css"/>
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>
+
+
+
+
+	<form action="ejercicio2b.html" method="get">
+	<!--Fieldset1 nº entrades i Categoria-->
+		<fieldset>
+			
+			<legend class="cabeza" >Entradas</legend>
+			
+			<label for="nEntradas">Número de entradas:</label>
+			<input type="number" id="nEntradas" name="Entradas" min="1" max="5">
+			<br>
+			<br>
+			<label for="categoria">Categoría:</label>
+			<select id="categoria" name="categoria">
+				<option value="Inicial"></option>
+				<option value="Pista central">Pista Central</option>
+				<option value="Amfiteatro">Amfiteatro</option>
+				<option value="Lateral">Lateral</option>
+			</select>
+  		</fieldset>
+
+		<br>
+
+<!---Fieldset 2 dades personals-->
+		<fieldset>
+			<legend class="cabeza">Datos Del Comprador</legend>
+			
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="user_name">
+			<br>
+			<br>
+			<label for="surname">Apellidos:</label>
+			<input type="text" id="surname" name="user_surname">
+			<br>
+			<br>
+			<label for="mail">E-mail:</label>
+			<input type="email" id="mail" name="user_mail">
+			<br>
+			<br>
+			<label for="bornDate">Fecha De Nacimiento:</label>
+			<input type="date" id="bornDate" name="user_bornDate">
+		</fieldset>
+
+	<br>
+
+	<!--Fieldset3 formes pagament-->
+		<fieldset>
+			<legend class="cabeza">Pago</legend>
+			<p>Selecciona el método de pago:</p>
+		
+		
+			<table>
+				<tr>
+					<th>
+					<label for="visa"></label>
+					<input type="radio"   id="visa" name="metodoPago" value="Visa">
+					</th>
+
+					<th>
+					<img src="visa.png" alt="Pago con Visa" width="50px" height="35px"  />
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+					<label for="masterCard"></label>
+					<input type="radio"  id="masterCard" name="metodoPago" value="Mastercard">
+					</th>
+					<th>
+					<img src="mastercard.png" alt="Pago con Master Card" width="50px" height="35px"/>
+					</th>
+	   			</tr>
+
+				<tr>
+					<th>
+					<label for="payPal"></label>
+					<input type="radio" id="payPal" name="metodoPago" value="payPal">
+					</th>
+					<th>
+					<img src="paypal2.png" alt="Pago con PayPal" width="50px" height="35px"/>
+					</th>
+				</tr>
+				
+				<tr>
+					<th>
+					<label for="bizum"></label>
+					<input type="radio"  id="bizum" name="metodoPago" value="Bizum">
+					</th>
+					<th>
+					<img src="bizum.png" alt="Pago con bizum" width="50px" height="35px"  />
+					</th>
+				</tr>
+				<br>
+			</table>
+
+			<br>
+			<br>
+			<input type="checkbox" id="condiciones" name="condic" required>
+			<label for="Condiciones">Acepto las condiciones de la compra </label>
+			<br>
+			
+			<p><input type="submit" class="boto1"   value="Proceder al Pago"></p>
+			
+
+		
+
+		
+		</fieldset>
+
+
+
+
+</form>		  
+
+
+
+
+
+
+
+</body>
+</html>
